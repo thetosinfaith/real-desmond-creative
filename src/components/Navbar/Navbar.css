@@ -21,7 +21,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 36px;
+  gap: 45px;
 }
 
 .nav-links li {
@@ -50,7 +50,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 16px 21px;
+  padding: 15px 20px;
   font-size: 17px;
   font-family: "Work Sans", serif;
 }

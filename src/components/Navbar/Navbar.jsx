@@ -13,8 +13,14 @@ const Navbar = () => {
     <>
       <Helmet>
         <title>Real Desmond | Branding & Design</title>
-        <meta name="description" content="Helping brands go from ignored to recognized. Work with Real Desmond, a branding expert." />
-        <meta name="keywords" content="branding, logo design, brand identity, business growth" />
+        <meta
+          name="description"
+          content="Helping brands go from ignored to recognized. Work with Real Desmond, a branding expert."
+        />
+        <meta
+          name="keywords"
+          content="branding, logo design, brand identity, business growth"
+        />
       </Helmet>
 
       <nav className="navbar">
@@ -24,9 +30,6 @@ const Navbar = () => {
           <ul className="nav-links">
             <li>
               <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/services">Services</Link>
@@ -44,7 +47,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Work With Me <FaArrowRight />
+              See Design Services <FaArrowRight />
             </a>
           </button>
         </div>

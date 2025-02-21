@@ -22,14 +22,10 @@ const Hero = () => {
           <img src={heroImg} alt="Brand Identity Designer" />
         </div>
         <div className="hero-content">
-          <h1>Helping Brands Go From Ignored To Recognised</h1>
+          <h1>Helping Brands Go From Invisible To Unforgettable</h1>
           <h4>Be The Brand They Can't Ignore</h4>
           <p>
-            I'm Real Desmond, a Brand Identity Designer with 5 years of experience
-            helping businesses and personal brands create brand identities. I
-            ensure your brand connects, brings more audience, tells stories, and
-            drives growth.
-          </p>
+          I am a Brand Identity Designer with 5 years of experience. I mix creativity with planning to create logos, colors, & styles that make your brand easy to recognize and remember. I help your business stand out so more people notice and trust it.           </p>
           <button className="click-me">
             <a
               href="https://api.whatsapp.com/message/FWGQWHEY6JQHO1?autoload=1&app_absent=0"
