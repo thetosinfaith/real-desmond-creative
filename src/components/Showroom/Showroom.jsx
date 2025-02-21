@@ -4,7 +4,7 @@ import Stocksavvy from "../../assets/pp.png";
 import IncomePilot from "../../assets/incomepilot.png";
 import Chisom from "../../assets/chisom.png";
 import VS from "../../assets/GT.png";
-import Flag from "../../assets/Flag.png";
+import Flag from "../../assets/flag.png";
 import Zinny from "../../assets/Zinny.png";
 
 const images = [Stocksavvy, IncomePilot, Chisom, VS, Flag, Zinny];
