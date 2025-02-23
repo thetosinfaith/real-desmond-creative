@@ -9,6 +9,7 @@ const Footer = () => {
         <div className="footer-section about">
           <h2 className="footer-logo">
             <img src={Lg} alt="" />
+            <p>Building and Branding One Pixel at a Time.</p>
           </h2>
         </div>
 
@@ -64,7 +65,19 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Real Desmond| All Rights Reserved</p>
+        <p>
+          {" "}
+          &copy; Real Desmond{" "}
+          <script>document.write(new Date().getFullYear());</script>| Built with{" "}
+          <i class="icon-heart text-danger" aria-hidden="true">
+            {" "}
+            ❤{" "}
+          </i>{" "}
+          by{" "}
+          <a href="https://wa.me/+2348123539192" target="_blank">
+            Tosin Faith
+          </a>
+        </p>
       </div>
     </footer>
   );

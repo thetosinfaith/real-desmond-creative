@@ -22,10 +22,10 @@ const Process = () => {
     <div className="process-container">
       <img src={right} alt="01" className="overlay-left" />
       <img src={left} alt="02" className="overlay-right" />
-      <h1 className="process-title">My design process</h1>
+      <h1 className="process-title">My Design Process</h1>
       <p className="process-description">
-        Strategy, transparency and a solid process are at the core of my
-        approach.
+        I work by packages (you can choose one of mine or create your own
+        depending on your needs).
       </p>
 
       <div className="line"></div>

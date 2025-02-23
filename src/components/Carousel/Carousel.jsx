@@ -13,26 +13,26 @@ export default function TextSlider() {
       <div className="slider-container">
         <div className="slider-wrapper">
           <div className="slider-content">
-            <span>Brand Identity • </span>
-            <span>Personal Branding • </span>
-            <span>Logo Design • </span>
-            <span>Graphic Design • </span>
-            <span>Corporate Branding • </span>
-            <span>Rebranding • </span>
+            <span><i>Brand Identity •</i> </span>
+            <span><i>Personal Branding •</i> </span>
+            <span><i>Logo Design •</i> </span>
+            <span><i>Graphic Design • </i></span>
+            <span><i>Corporate Branding • </i></span>
+            <span><i>Rebranding •</i> </span>
 
-            <span>Brand Identity • </span>
-            <span>Personal Branding • </span>
-            <span>Logo Design • </span>
-            <span>Graphic Design • </span>
-            <span>Corporate Branding • </span>
-            <span>Rebranding • </span>
+            <span><i>Brand Identity •</i> </span>
+            <span><i>Personal Branding •</i> </span>
+            <span><i>Logo Design •</i> </span>
+            <span><i>Graphic Design • </i></span>
+            <span><i>Corporate Branding • </i></span>
+            <span><i>Rebranding •</i> </span>
 
-            <span>Brand Identity • </span>
-            <span>Personal Branding • </span>
-            <span>Logo Design • </span>
-            <span>Graphic Design • </span>
-            <span>Corporate Branding • </span>
-            <span>Rebranding • </span>
+            <span><i>Brand Identity •</i> </span>
+            <span><i>Personal Branding •</i> </span>
+            <span><i>Logo Design •</i> </span>
+            <span><i>Graphic Design • </i></span>
+            <span><i>Corporate Branding • </i></span>
+            <span><i>Rebranding •</i> </span>
           </div>
         </div>
       </div>

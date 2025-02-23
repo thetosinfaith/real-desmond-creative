@@ -4,10 +4,10 @@ import Stocksavvy from "../../assets/pp.png";
 import IncomePilot from "../../assets/oss.png";
 import Chisom from "../../assets/chisom.png";
 import VS from "../../assets/GT.png";
-import Flag from "../../assets/AJ.png";
+import Flag from "../../assets/W.png";
 import Zinny from "../../assets/Zinny.png";
 
-const images = [Stocksavvy, Chisom, IncomePilot, VS,  Zinny, Flag];
+const images = [Stocksavvy, IncomePilot, VS, Chisom, Flag, Zinny];
 
 const Showroom = () => {
   return (

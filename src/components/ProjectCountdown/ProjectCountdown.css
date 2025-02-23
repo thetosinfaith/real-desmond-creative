@@ -1,0 +1,100 @@
+.countdown-container {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-family: "Mulish", serif;
+  background: black;
+  color: yellow;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.countdown-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: -15px;
+}
+
+.countdown {
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.count-number {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.count-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: yellow;
+  margin-top: 5px;
+}
+
+.countdown:hover {
+  transform: scale(1.05);
+}
+
+.divider {
+  width: 4px;
+  height: 60px;
+  background: yellow;
+  border-radius: 2px;
+}
+
+.countdown.done .count-number {
+  transform: scale(1.2);
+  animation: bounce 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 768px) {
+  .countdown-items {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .divider {
+    height: 3px;
+    width: 50px;
+  }
+
+  .count-number {
+    font-size: 40px;
+  }
+
+  .count-text {
+    font-size: 18px;
+  }
+
+  .countdown.done .count-number {
+    transform: scale(1.2);
+    animation: bounce 0.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+  }
+}

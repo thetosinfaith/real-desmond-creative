@@ -32,13 +32,16 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services">Portfolio</Link>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Reviews</Link>
+            </li>
+            <li>
+              <Link to="/contact">Packages</Link>
             </li>
           </ul>
           <button className="say-hello">
@@ -47,7 +50,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See Design Services <FaArrowRight />
+              Contact Me <FaArrowRight />
             </a>
           </button>
         </div>
